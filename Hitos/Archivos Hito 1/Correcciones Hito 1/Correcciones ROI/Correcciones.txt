@@ -1,0 +1,27 @@
+Incluir introducción al apartado.
+Para evaluar la conveniencia y sostenibilidad del desarrollo del sistema, se ha realizado un análisis de viabilidad económica basado en una estimación del retorno de la inversión (ROI). En este estudio se han considerado tanto los costes asociados a la implementación técnica del proyecto, como los beneficios derivados de la reducción del trabajo manual y la mejora en la eficiencia operativa. Con el objetivo de determinar si la solución propuesta ofrece un valor añadido significativo y recupera su inversión en un plazo razonable.
+
+Modificaciones
+El texto entre [] es para poner una referencia, nose como se pone en latex.
+
+"Coste medio por hora: 40 € (valor conservador para perfiles junior en IA y datos)." -> "Coste medio por hora: 19,61 € [según el análisis de es-jooble.org "https://es.jooble.org/salary/analista?utm_source=copilot.com"]."
+
+"Coste total: 384*40=15360 euros"->"Coste total: 384*40=7530,24 €"
+
+"Considerando un coste por hora de 20 €:" -> "Considerando el salario medio de un etiquetador de datos de 14,7 € [según el análisis de es-jooble.org "https://es.jooble.org/salary/etiquetador?utm_source=copilot.com"]."
+
+"120×20 = 2400euros / mes"-> "120×14,7 = 1764 €/mes"
+
+"2400×12 = 28800euros / año" -> "1764×12 = 21168 €/año"
+
+"ROI = (28800−15360)/15360 = 0.875" -> "ROI = (21168-7530,24)/7530,24 = 1.81"
+
+"Con un ROI del 87,5 %, el sistema se recupera en aproximadamente 1 año y 2meses.
+Por tanto, el sistema presenta una alta viabilidad económica. Además del ahorro directo, permite generar
+valor adicional mediante la posible comercialización de información y una mayor escalabilidad respecto al
+trabajo manual."
+->
+"Con un ROI del 181 %, el sistema se recupera en poco más de medio año.
+Por tanto, el sistema presenta una alta viabilidad económica. Además del ahorro directo, permite generar
+valor adicional mediante la posible comercialización de información y una mayor escalabilidad respecto al
+trabajo manual."
