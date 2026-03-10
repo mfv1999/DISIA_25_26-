@@ -1,0 +1,58 @@
+2.4 Análisis de los datos
+
+El análisis se ha realizado sobre un conjunto de 24.970 tweets etiquetados con sentimiento y emoción. Los resultados muestran un dataset estructurado de tamaño moderado, con distribuciones claramente asimétricas (predominio de sentimientos negativos, y con disparidad entre emociones como la ira y la sorpresa).
+
+Conjunto de datos:
+
+El dataset cuenta con las columnas: Datetime, Tweet Id, Text, Username, sentiment, sentiment_core, emotion, emotion_score.
+
+Como se mencionó anteriormente, el dataset busca etiquetar el sentimiento y la emoción, siendo la distribución de estos la siguiente:
+
+Sentimiento:
+-Negativo: 10.556
+-Positivo: 7.366
+-Neutral: 7.048
+
+Emoción:
+-Ira: 7.520
+-Alegría: 6.326
+-Anticipación: 5.171
+-Disgusto: 3.000
+-Tristeza: 1.328
+-Optimismo: 1.225
+-Miedo: 366
+-Sorpresa: 34
+
+Existe un sesgo hacia el sentimiento negativo y una concentración muy alta en unas pocas emociones (especialmente ira y alegría).
+
+Se revisaron si había duplicados en el dataset y no se encontraron.
+
+Longitud Tweets:
+
+De media los tweets tenían 173 caracteres, sin embargo, entre estos había tweets de menos de 5 caracteres y tweets de unos 900 caracteres. Siendo estos extremos, un punto delicado a revisar y tener en cuenta de cara al entrenamiento.
+
+Correlaciones entre variables.
+
+Para buscar correlaciones entre varíales se añadieron tres nuevas variables extraidas del texto: num_hashtags, num_mentions y num_emojis.
+
+Añadir Imagen 2.4-1
+Matriz de correlación
+
+-text_length/num_hashtags ≈ 0.30 (correlación moderada)
+-text_length/num_mentions ≈ 0.24 (correlación débil-moderada)
+-El resto son prácticamente nulas.
+
+Por otro lado, se analizó la relación entre las emociones y la longitud de los tweets, así comocon el numero de hashtags, mentions y emojis.
+
+Añadir Imagen 2.4-2
+Tabla Emoción-Longitud
+
+Añadir Imagen 2.4-3
+Tabla Emoción-Hashtags/Mentions/Emojis
+
+-Emociones como la ira, el miedo y el optimismo tienden a textos más largos; mientras que los de sorpresa son más cortos en promedio.
+-Los emojis tienen una mayor presencia en mensajes alegres y tristes; mientras que en los de anticipación se usan con mucha menos frecuencia.
+-El uso de hastags es mucho mayor en las emociones de miedo, optimismo, anticipación y alegría.
+-Las menciones son mas frecuentes que los emojis y hastags, además de ser excepcionalmente frecuentes en los de anticipación.
+
+Los resultados confirman un conjunto de datos estructurados y con un tamaño moderado, con una distribución asimétrica pero escasas correlaciones entre los datos. El análisis revela la existencia de un marcado sesgo hacia el sentimiento negativo y hacia emociones como ira y alegria, así como la presencia de emociones con muy baja representación. Adicionalmente el estudio por emoción pone de manifiesto diferencias significativas en la longitud, el uso de hashtags, menciones y emojis según la categoría emocional.
