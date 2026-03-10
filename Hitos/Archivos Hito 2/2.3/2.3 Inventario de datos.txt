@@ -1,0 +1,21 @@
+2.3 Inventario de datos
+En esta sección se define el conjunto de datos con el que se va a trabajar para el desarrollo del sistema, considerando las dos fuentes de datos mencionadas en la sección anterior. Finalmente, se realizará un inventario de los datos.
+El conjunto da datos sobre el que se va a trabajar está formado por publicaciones de la red social Twitter/X que contienen menciones relacionadas con una marca tecnológica. Cada registro del dataset corresponde a una publicación realizada por un usuario en la red social.
+Se ha normalizado el dataset, eliminando registros duplicados o repetidos y estructurando la información en un formato tabular donde cada fila representa una publicación y cada columna una característica asociada a esta.
+Además de la información visible de cada publicación, como el texto original de esta, el id del usuario que la publica o su fecha de publicación, el dataset incorpora otras variables que permiten representar tanto el sentimiento como la emoción predominante en la publicación. Estas han sido obtenidas mediante modelos de procesamiento de lenguaje natural.
+A continuación, se detalla el inventario de variables que componen el dataset que vamos a usar.
+/*PONER EN FORMA DE TABLA DE LATEX!!!!!!!!!*/
+VARIABLE        | DESCRIPCIÓN
+date		 Fecha de publicación de la publicación
+tweetID		 Identificador único de la publicación
+text		 Contenido de la publicación
+username	 Nombre de usuario del autor de la publicación
+sentiment	 Etiqueta de sentimiento asociada a la publicación
+sentimentScore	 Puntuación asociada al sentimiento
+emotion		 Etiqueta de emoción asociada a la publicación
+emotionScore	 Puntuación asociada a la emoción
+/*FIN TABLA*/
+Estas variables nos permiten caracterizar cada publicación desde los puntos de vista textual y emocional. Las variables asociadas a sentimiento y emoción asociadas a la publicación son las que nos permitirán establecer el análisis reputacional de la compañía.
+Pasamos a a hacer invntario de los datos del dataset. A continuación, se detalla una imagen con un extracto de este.
+/*INSERTAR IMAGEN*/
+En esta podemos ver valores de ejemplo para las variables detalladas anteriormente. Cabe destacar que este no es el único dataset que podríamos utilizar. En plataformas como Kaggle existen diversos conjuntos de datos que podemos tomar, normalizar su estructura a la que aquí se detalla y usar estas para evaluar el entrenamiento del modelo de Inteligencia Artificial a desarrollar. Sin embargo, el dataset que se analizará en el apartado posterior, será este.
