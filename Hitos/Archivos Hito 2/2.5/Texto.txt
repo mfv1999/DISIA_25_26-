@@ -1,0 +1,12 @@
+Tras el análisis exploratorio del conjunto de datos, es necesario establecer el criterio mediante el cual se evaluará el rendimiento del sistema y, en consecuencia, la calidad de los modelos que se desarrollen para clasificar o priorizar los tweets según su sentimiento o emoción. Es necesario evaluar la capacidad del modelo para identificar correctamente las categorías emocionales y de sentimiento presentes en los textos. Por tanto, el enfoque metodológico debe adaptarse a la naturaleza del problema.
+
+El dataset proporciona etiquetas explícitas para cada tweet en las columnas sentiment y emotion, lo que permite plantear el problema como una tarea supervisada. Sin embargo el análisis previo muestran una fuerte descompensación, especialmente en las emociones, donde ira, alegría o anticipación concentran la mayoría de los ejemplos, mientras que otras como miedo o sorpresa son testimoniales. Esta asimetría obliga a seleccionar métricas que no se vean dominadas por las clases mayoritarias y que permitan evaluar de forma justa el rendimiento del modelo en todas las categorías.
+
+Métricas como la exactitud resultan insuficientes, ya que un modelo podría obtener valores elevados simplemente prediciendo siempre las clases más frecuentes. Por ello, se emplearán métricas más adecuadas para escenarios con desbalance, como:
+
+-Precisión, exhaustividad y F1-score por clase, que permiten evaluar el comportamiento del modelo en cada categoría individual.
+-F1 macro, que calcula la media no ponderada del F1 de cada clase y evita que las clases mayoritarias dominen la evaluación.
+-Matriz de confusión, que facilita la interpretación de los errores y permite identificar patrones de confusión entre emociones similares.
+-AUC-ROC macro, aplicable en escenarios multiclase mediante estrategias one-vs-rest, útil para evaluar la separabilidad entre categorías.
+
+El objetivo final es construir un sistema capaz de identificar correctamente tanto el sentimiento como la emoción predominante en un tweet, estas métricas permiten cuantificar la calidad del modelo de forma equilibrada y coherente con la estructura del dataset. Además, la elección de métricas macro evita el sobreajuste hacia las clases más frecuentes y proporciona una evaluación más representativa del rendimiento real del sistema.
