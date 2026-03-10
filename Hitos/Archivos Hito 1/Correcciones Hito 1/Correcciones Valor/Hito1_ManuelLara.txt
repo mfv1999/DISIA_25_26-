@@ -1,0 +1,25 @@
+Valor:
+La evaluación del valor de un sistema de inteligencia artificial debe realizarse desde la perspectiva de los
+stakeholders que lo utilizan, lo validan y toman decisiones a partir de sus resultados. En el caso del sistema de monitorización reputacional propuesto, los principales stakeholders serían los departamentos de marketing de las propias empresas tecnológicas sometidas a esta monitorización. También debemos incluir a la alta dirección de las empresas ya que la información que les proporcionaría este sistema les permitiría conocer más a fondo su mercado.
+El valor aportado no se limita a la clasificación automática de publicaciones en redes sociales, si no que se manifiesta en distintas dimensiones: estratégica, operativa, organizativa y tecnológica. Esta visión multidimensional permite comprender el sistema no como un experimento de análisis de sentimiento, sino como un producto de inteligencia artificial con capacidad de generar impacto real en la organización.
+
+--- Valor estratégico ---
+Desde el punto de vista estratégico, el sistema proporciona un mecanismo estructurado y continuo de monitorización del estado reputacional digital basado en indicadores de sentimiento y emoción. Este enfoque permitiría detectar de forma temprana variaciones significativas en la percepción publica de las marcas, identificar tendencias emergentes de emociones asociadas a lanzamientos, campañas o incidencias, apoyar la toma de decisiones estratégicas con información cuantitativa y reproducible y tomar acción temprana ante crisis reputacionales.
+--- Valor operativo ---
+Desde una perspectiva operativa, el sistema presenta mejorías sustanciales frente al análisis de redes sociales tradicional. En lugar de depender únicamente de la revisión por parte de un equipo humano, la solución propuesta permite el procesamiento automatizado y continuo de grandes volúmenes de publicaciones, la generación sistemática de indicadores temporales, como pueden ser la distribución emocional o el índice reputacional y la homogenización de los criterios de análisis, al ser este un proceso que no requiere asistencia humana, reduciendo la subjetividad.
+Esto reduce la carga operativa de los equipos de comunicación y permite centrar el esfuerzo humano en tareas de análisis estratégico.
+
+--- Valor organizativo ---
+Desde la perspectiva organizativa, el sistema constituye un activo reutilizable y evolutivo.
+No se trata de una solución pensada para un conjunto de datos concreto, sino de una arquitectura concebida para integrarse en el entorno tecnológico de la organización, extenderse a múltiples marcas o líneas de producto, incorporar nuevas fuentes de datos, como otras redes sociales o reseñas en buscadores y evolucionar hacia modelos predictivos de riesgo reputacional.
+Esta orientación a producto refuerza su potencial de adopción a medio y largo plazo, alineándolo con procesos reales de toma de decisiones.
+
+--- Valor social y reputacional ---
+En el entorno digital actual, la gestión de la reputación corporativa tiene una dimensión social significativa. Las crisis reputacionales pueden amplificarse rápidamente y generar impactos económicos y de imagen difíciles de revertir.
+El sistema aporta valor social al facilitar una gestión más transparente basada en datos y en la opinión publica. Además, permite actuar más rápido ante tendencias de reputación negativa, y, en definitiva, permite alinear la comunicación de las marcas con el estado emocional real de su comunidad.
+En este contexto, la Inteligencia Artificial constituye un mecanismo para la escucha de la opinión publica, y su procesamiento en forma estructurada.
+
+--- Valor tecnológico y científico ---
+Desde una perspectiva tecnológica, el sistema propone y valida una metodología que combina clasificación emocional basada en modelos "transformer" con agregación temporal e identificación de desviaciones respecto a un comportamiento base histórico.
+El valor tecnológico reside en la formalización del estado reputacional como un problema cuantificable, la integración de clasificación, análisis temporal y detección de anomalías en un único sistema coherente y la orientación a explicabilidad mediante indicadores agregados interpretables por perfiles no técnicos.
+A diferencia de enfoques puramente descriptivos o centrados exclusivamente en la precisión del modelo de clasificación, la propuesta adopta una visión orientada con los objetivos de las empresas en cuanto a lo que su imagen publica respecta.

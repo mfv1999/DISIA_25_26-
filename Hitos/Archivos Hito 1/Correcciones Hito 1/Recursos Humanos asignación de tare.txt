@@ -1,0 +1,75 @@
+Recursos Humanos: asignación de tareas y capacidad
+
+El desarrollo del sistema de análisis de sentimiento se ha llevado a cabo mediante la colaboración entre un equipo técnico especializado en ciencia de datos e inteligencia artificial y expertos en comunicación digital y análisis lingüístico. Esta estructura refleja un escenario realista de proyectos de análisis de datos, donde diferentes perfiles profesionales trabajan de forma coordinada para diseñar, implementar y validar sistemas capaces de extraer conocimiento a partir de grandes volúmenes de información textual.
+
+En el contexto actual, las redes sociales, foros y plataformas digitales generan continuamente grandes cantidades de contenido textual que contienen información implícita sobre opiniones, sentimientos y estados emocionales de los usuarios. El análisis de estos datos mediante técnicas de procesamiento del lenguaje natural (PLN) y aprendizaje automático permite transformar esta información en conocimiento útil para organizaciones y empresas.
+
+Desde el punto de vista del ciclo de vida de un sistema de inteligencia artificial, el proyecto no se limita al desarrollo técnico del modelo, sino que incluye procesos de adquisición de datos, preparación, modelado, validación lingüística y despliegue tecnológico. Cada una de estas fases requiere la participación de especialistas con competencias diferentes pero complementarias.
+
+Equipo técnico de desarrollo
+
+El equipo técnico responsable del diseño, implementación y evaluación del sistema de análisis de sentimiento está formado por varios profesionales con perfiles especializados en ciencia de datos, ingeniería de software, arquitectura de sistemas y lingüística computacional.
+
+Gonzalo Prieto de la Barreda
+
+Rol principal: Científico e Ingeniero de Datos (Data Scientist / Data Engineer)
+
+Gonzalo Prieto de la Barreda ha asumido la responsabilidad del diseño y desarrollo de los procesos de adquisición y preparación de datos. Su trabajo se centra en la ingesta de información procedente de distintas APIs de redes sociales, garantizando que los datos recopilados sean adecuados para su posterior análisis.
+
+Entre sus principales responsabilidades se encuentran la construcción de pipelines de datos para la recopilación, limpieza y transformación de textos, así como la preparación de conjuntos de datos estructurados que puedan ser utilizados para entrenar modelos de análisis de sentimiento. Además, ha sido responsable de garantizar la calidad, consistencia y escalabilidad de los datos utilizados en el sistema.
+
+Este rol es fundamental dentro del ciclo de vida de los sistemas de inteligencia artificial, ya que la calidad de los datos de entrada determina en gran medida la fiabilidad y precisión de los resultados obtenidos por los modelos analíticos.
+
+Manuel Flores Villajos
+
+Rol principal: Arquitecto de Machine Learning (ML Architect)
+
+Manuel Flores Villajos ha sido responsable del diseño de la arquitectura global del sistema de análisis de datos. Su función principal ha consistido en definir la estructura tecnológica que permite integrar las diferentes fases del proceso analítico, desde la recopilación de datos hasta la generación de resultados interpretables.
+
+Entre sus tareas destacan la definición del almacenamiento de datos, el diseño de los flujos de información y la creación de modelos de datos que permitan gestionar grandes volúmenes de texto de forma eficiente. Asimismo, ha trabajado en la optimización de la infraestructura para soportar procesamiento masivo de información y análisis en tiempo real.
+
+Este rol resulta clave para garantizar que el sistema sea escalable, eficiente y capaz de adaptarse al crecimiento continuo de datos generado por las plataformas digitales.
+
+Manuel Lara Torres
+
+Rol principal: Ingeniero Informático y DevOps (Software Engineer / DevOps Engineer)
+
+Manuel Lara Torres ha sido el encargado de la implementación técnica y el despliegue de los modelos de análisis de sentimiento desarrollados durante el proyecto. Sus responsabilidades incluyen la integración de los modelos en entornos de producción y la automatización de procesos mediante herramientas de integración y despliegue continuo (CI/CD).
+
+Además, ha gestionado la infraestructura cloud necesaria para ejecutar el sistema, garantizando la disponibilidad, seguridad y monitorización de los servicios. Su trabajo también ha permitido asegurar la escalabilidad del sistema, facilitando que el análisis pueda realizarse de forma eficiente incluso cuando el volumen de datos aumenta significativamente.
+
+Este rol conecta directamente con las fases de despliegue, mantenimiento y operación de sistemas de inteligencia artificial en entornos reales.
+
+Equipo de expertos del dominio y validación lingüística
+
+Además del equipo técnico, el proyecto ha contado con la participación de una especialista en análisis lingüístico y comunicación digital, cuyo papel ha sido esencial para validar la interpretación semántica de los resultados generados por el sistema.
+
+Patricia Acebes Tamargo
+
+Rol principal: Especialista Lingüística, Community Manager y Auditor de Calidad
+
+Patricia Acebes Tamargo ha sido responsable de diseñar y validar las reglas lingüísticas y los diccionarios semánticos utilizados en los modelos basados en reglas. Su trabajo ha permitido asegurar que el sistema interprete correctamente el significado emocional de los textos, teniendo en cuenta aspectos culturales, expresiones coloquiales y variaciones del lenguaje utilizadas en redes sociales.
+
+Además, ha supervisado la interpretación de los resultados generados por los modelos de análisis de sentimiento desde una perspectiva comunicativa, evaluando la coherencia entre la clasificación automática y la intención real del mensaje.
+
+Otra de sus responsabilidades ha sido auditar la calidad del sistema, identificando posibles sesgos lingüísticos y evaluando la precisión de los modelos. Asimismo, ha realizado análisis de reputación digital y ha contribuido a la elaboración de informes estratégicos basados en los resultados obtenidos.
+
+Rol del sistema en el análisis estratégico
+
+El sistema desarrollado permite automatizar el análisis de grandes volúmenes de texto mediante técnicas de procesamiento del lenguaje natural y aprendizaje automático. Gracias a estas herramientas, es posible identificar tendencias de opinión, evaluar la percepción pública de marcas o instituciones y detectar emociones predominantes en las conversaciones digitales.
+
+Entre las principales capacidades del sistema destacan:
+
+Clasificación emocional, que permite categorizar los textos como positivos, negativos o neutros, así como detectar emociones específicas.
+
+Comprensión contextual, mediante modelos avanzados capaces de interpretar matices lingüísticos, ironía o diferencias culturales.
+
+Procesamiento en tiempo real, lo que facilita la detección rápida de cambios en la opinión pública.
+
+Escalabilidad, permitiendo analizar millones de comentarios de forma simultánea.
+
+Predicción de tendencias, a partir del análisis histórico de datos.
+
+En conjunto, la colaboración entre especialistas en datos, ingeniería de sistemas y análisis lingüístico permite construir un sistema robusto capaz de transformar información textual en conocimiento estratégico útil para la toma de decisiones.
+
+
