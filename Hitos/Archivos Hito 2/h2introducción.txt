@@ -1,0 +1,29 @@
+
+Introducción:
+En los últimos años, más si cabe ante el incremento en la competencia de empresas que ofrecen productos tecnológicos, es cada vez más relevante conocer como piensa el cliente, cual es su  predisposición el producto, o si el cliente está contento con el producto o servicio que se proporciona por el negocio. Para poder responder estas cuestiones se uso el análisis de sentimiento o minería de opinión para automatizar la información subjetiva que se realizaba por medio de opiniones, actitudes, emociones y sentimientos.
+Comprender las emociones son fundamentales para los negocios ya que los clientes pueden reflejar sus opiniones de una manera más sencilla que antes con redes sociales como X, y de esa manera las empresas son más capaces de atender a sus clientes y ofrecer productos y servicios ajustados a sus necesidades.
+El análisis de sentimiento-minería de opinión- depende de las técnicas de procesamiento natural(NLP).NLP permite a una máquina procesar lenguaje natural y traducirlo de una manera que la máquina lo comprenda.
+Análisis de sentimiento es una técnica de machine learning que automáticamente analiza datos y detecta el sentimiento del texto. Mediante la identificación el sentimiento a través de los productos, marcas o servicios , los negocios pueden comprender como los clientes están hablando de las conversaciones online .
+                                                                                                                                  . Los modelos de análisis de sentimiento pueden ser de diversas formas .Desde aquellos que se focalizan en la polaridad (positivo, negativo, neutral), hasta aquellos que detectan sentimientos o emociones(enfado, felicidad , tristeza).
+
+1.1 Flujo de Procesos 
+
+
+
+1.2 Recolección de datos 
+Los datos son recogidos de diferentes dataset de la página de kaggle como  sentiments and emotion of tweets. El 80% de los datos fue utilizada para el entrenamiento y el 20% restante para test.
+
+1.3. Preprocesamiento de Datos y NLP 
+
+El preprocesamiento y limpieza es un importante paso para escalar los datos y reducir la dimensionalidad de cara a construir un modelo eficiente. Se hará los siguientes pasos.
+Eliminar las etiquetas de HTML. Eliminar los espacios en blanco, caracteres especiales, minúsculas en todas las palabras, eliminar stopwords, lemmatizacion(se utiliza spacy ren python)
+Se utiliza una técnica llamada word2vector, para convertir los documentos preprocesados a un corpus de vector    
+
+
+
+Referencias
+G.Karuna , Pavuluri, Anvesh, Chiranji, Sharath Singh et al (2023)Feasible Sentiment Analysis of Real Time Twitter Data E3S Web of Conferences .
+Hisham Ahmed Sheikh J. Jaiswal (2020) Implementing Sentiment Analysis on Real Time Twitter Data 
+Aditya, D, Santosh Kumar Bharti, Samir B.Patel, Sambit Kumar Mishra A real Time Sentiments Analysis System Using TwitterPandit Deendayal Petroleum University.
+DellTechnologies Customer Sentiment Analysis https://learning.dell.com/content/dam/dell-emc/documents/en-us/2020KS_Dhar-Customer_Sentiment_Analysis.pdf
+Exploring Sentiment Analysis Using Large Language Models Fabrizio Bronzatihttps://infohub.delltechnologies.com/es-es/p/exploring-sentiment-analysis-using-large-language-models/
