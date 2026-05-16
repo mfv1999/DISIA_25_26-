@@ -3,7 +3,8 @@ from fastapi import APIRouter, HTTPException, Query, Request
 
 from app.models.schemas import AnalyzeResponse
 from app.preprocessing.feature_extraction import extract
-
+from app.monitoring.prediction_logger import log_prediction
+from app.monitoring.model_metrics import calculate_model_metrics
 router = APIRouter()
 
 @router.get("/extract_data")
@@ -33,13 +34,17 @@ def analyze(request: Request, text: str = Query(..., min_length=1, max_length=10
             lexicons=request.app.state.lexicons,
             negation_window=request.app.state.negation_window,
         )
+
+        log_prediction(result)
+
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
-
-    print(result)
 
     return AnalyzeResponse(
         original_text=result["original_text"],
         features=result["features"],
         prediction=result["prediction"],
     )
+@router.get("/model_metrics")
+def model_metrics():
+    return calculate_model_metrics()
