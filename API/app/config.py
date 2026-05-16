@@ -1,13 +1,13 @@
 from pathlib import Path
 from pydantic_settings import BaseSettings
 
-
 class Settings(BaseSettings):
     APP_NAME: str = "Sentiment Analysis API"
     APP_VERSION: str = "0.1.0"
     DEBUG: bool = False
     HOST: str = "0.0.0.0"
     PORT: int = 8000
+    PROMETHEUS_URL: str = "http://localhost:9090"
 
     BASE_DIR: Path = Path(__file__).resolve().parent.parent
     LEXICON_DIR: Path = BASE_DIR / "lexicons"
