@@ -5,6 +5,11 @@ from app.models.schemas import AnalyzeResponse
 from app.preprocessing.feature_extraction import extract
 from app.monitoring.prediction_logger import log_prediction
 from app.monitoring.model_metrics import calculate_model_metrics
+from fastapi import APIRouter, HTTPException, Query, Request, Response
+from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
+from app.monitoring.drift_prometheus_metrics import collect_drift_metrics
+
+from app.monitoring.model_prometheus_metrics import collect_model_metrics
 router = APIRouter()
 
 @router.get("/extract_data")
@@ -48,3 +53,13 @@ def analyze(request: Request, text: str = Query(..., min_length=1, max_length=10
 @router.get("/model_metrics")
 def model_metrics():
     return calculate_model_metrics()
+
+@router.get("/metrics")
+def prometheus_metrics():
+    collect_model_metrics()
+    collect_drift_metrics()
+
+    return Response(
+        generate_latest(),
+        media_type=CONTENT_TYPE_LATEST
+    )
