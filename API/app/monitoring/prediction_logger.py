@@ -3,6 +3,8 @@ from datetime import datetime, timezone
 import csv
 import json
 
+from app.alerts.telegram_alerts import send_drift_alert_if_needed
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 METRICS_DIR = BASE_DIR / "metrics"
@@ -33,3 +35,5 @@ def log_prediction(result: dict) -> None:
             writer.writeheader()
 
         writer.writerow(row)
+    send_drift_alert_if_needed()
+        

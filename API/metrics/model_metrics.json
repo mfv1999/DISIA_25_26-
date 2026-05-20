@@ -1,9 +1,9 @@
 {
-    "total_predictions": 14,
+    "total_predictions": 31,
     "emotion_distribution": {
-        "anger": 0.5,
-        "joy": 0.4286,
-        "sadness": 0.0714
+        "anger": 0.4516,
+        "joy": 0.3226,
+        "sadness": 0.2258
     },
     "most_frequent_emotion": "anger",
     "confidence_available": false

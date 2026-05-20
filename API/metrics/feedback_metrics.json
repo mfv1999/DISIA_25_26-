@@ -1,0 +1,11 @@
+{
+    "total_feedback": 2,
+    "total_corrections": 2,
+    "agreement_rate": 0.0,
+    "correction_rate": 1.0,
+    "corrected_emotion_distribution": {
+        "anger": 0.5,
+        "sadness": 0.5
+    },
+    "most_corrected_emotion": "anger"
+}
